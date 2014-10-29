@@ -317,8 +317,8 @@ del {
 h1 {
 	font-size: 2.625rem; /* 42px / 16px */
 	line-height: 1.1904761904761904761904761904762; /* 50px / 42px */
-	margin-top: 1.5625rem; /* 25px / 16px */
-	margin-bottom: 1.5625rem; /* 25px / 16px */
+	margin-top: 12rem; /* 25px / 16px */
+	margin-bottom: 12rem; /* 25px / 16px */
 }
 
 h2 {
