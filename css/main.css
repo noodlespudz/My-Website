@@ -201,7 +201,7 @@ button,
 input,
 select,
 textarea {
-	color: #333;
+	color: #fff;
 }
 
 body {
@@ -489,8 +489,12 @@ textarea:invalid {
    4.6  Main navigation
    ========================================================================== */
 
+#main-container {
+	background-color: #343838;
+}
+
 #main-navigation-container {
-	background-color: #dcdcdc;
+	background-color: #000;
 }
 
 #main-navigation-logo {
@@ -522,8 +526,8 @@ textarea:invalid {
 	   -moz-transition: all 0.2s linear;
 	     -o-transition: all 0.2s linear;
 	        transition: all 0.2s linear;
-	color: #000;
-	background-color: #dcdcdc;
+	color: #fff;
+	background-color: #000;
 }
 
 .js #main-navigation-list {
@@ -555,12 +559,12 @@ textarea:invalid {
 /* 1st level and overall menu styles */
 
 #main-navigation-list li {
-	font-size: 1.25rem; /* 20px / 16px */
+	font-size: 1rem;   /* 20px / 16px */
 	line-height: 1.25; /* 25px / 20px */
 	position: relative;
 	right: 0;
 	left: 0;
-	background-color: #dcdcdc;
+	background-color: #000;
 }
 
 #main-navigation-list a {
@@ -571,7 +575,7 @@ textarea:invalid {
 	   -moz-transition: all 0.2s linear;
 	     -o-transition: all 0.2s linear;
 	        transition: all 0.2s linear;
-	color: #000;
+	color: #fff;
 }
 
 #main-navigation-list li a:visited {
@@ -580,12 +584,12 @@ textarea:invalid {
 
 .js #main-navigation-list .parent,
 #main-navigation-list .current {
-	background: #bebebe;
+	background: #008c9e;
 }
 
 .js #main-navigation-list li.show-submenu > a {
 	color: #f0f0f0;
-	background: #8c8c8c;
+	background: #008c9e;
 }
 
 #main-navigation-toggle,
@@ -659,6 +663,10 @@ textarea:invalid {
 #page-header {
 	margin-right: 10px;
 	margin-left: 10px;
+}
+
+#page-header-container {
+	background-color: #00dffc;
 }
 
 #main {
